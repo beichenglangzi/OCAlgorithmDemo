@@ -13,6 +13,7 @@
 		4732E0151D4B0B120014D24C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4732E0131D4B0B120014D24C /* Main.storyboard */; };
 		4732E0171D4B0B120014D24C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4732E0161D4B0B120014D24C /* Assets.xcassets */; };
 		4732E01A1D4B0B120014D24C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4732E0181D4B0B120014D24C /* LaunchScreen.storyboard */; };
+		4766735E1D570F78008711A7 /* ChessBoardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4766735D1D570F78008711A7 /* ChessBoardModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4732E0161D4B0B120014D24C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4732E0191D4B0B120014D24C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4732E01B1D4B0B120014D24C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4766735C1D570F78008711A7 /* ChessBoardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoardModel.h; sourceTree = "<group>"; };
+		4766735D1D570F78008711A7 /* ChessBoardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoardModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				4732E00E1D4B0B120014D24C /* AppDelegate.m */,
 				4732E0101D4B0B120014D24C /* ViewController.h */,
 				4732E0111D4B0B120014D24C /* ViewController.m */,
+				4766735C1D570F78008711A7 /* ChessBoardModel.h */,
+				4766735D1D570F78008711A7 /* ChessBoardModel.m */,
 				4732E0131D4B0B120014D24C /* Main.storyboard */,
 				4732E0161D4B0B120014D24C /* Assets.xcassets */,
 				4732E0181D4B0B120014D24C /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				4732E0121D4B0B120014D24C /* ViewController.m in Sources */,
 				4732E00F1D4B0B120014D24C /* AppDelegate.m in Sources */,
 				4732E00C1D4B0B120014D24C /* main.m in Sources */,
+				4766735E1D570F78008711A7 /* ChessBoardModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +308,7 @@
 				4732E0201D4B0B120014D24C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
